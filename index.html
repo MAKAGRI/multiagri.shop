@@ -1,78 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MULTIAGRI | Agriculture & Distribution</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiagri - Agricultural Solutions</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header, footer { background-color: #276b2d; color: white; text-align: center; padding: 20px; }
-    section { padding: 40px 20px; text-align: center; }
-    .hero { background: url('https://images.unsplash.com/photo-1576402187878-974f5a6dcba5') center/cover; color: white; padding: 100px 20px; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px; }
-    .card { border: 1px solid #ccc; padding: 20px; border-radius: 10px; background: #f9f9f9; }
-    .card img { width: 100%; border-radius: 10px; }
-    a { color: white; text-decoration: none; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 1rem;
+      font-size: 1.2rem;
+      color: #4CAF50;
+    }
+    .card p {
+      margin: 0 1rem 1rem;
+      font-size: 0.95rem;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
   </style>
 </head>
 <body>
+  <header>
+    <h1>Multiagri</h1>
+    <p>Empowering Moroccan Agriculture</p>
+  </header>
 
-<header>
-  <h1>MULTIAGRI</h1>
-  <p>contact@multiagri.shop | +212 724 058 760</p>
-</header>
-
-<section class="hero">
-  <h2>Welcome to MULTIAGRI</h2>
-  <p>Your trusted partner in agricultural distribution and solutions.</p>
-</section>
-
-<section>
-  <h2>About Us</h2>
-  <p>Based in Douar Ait Boucetta, MULTIAGRI is committed to providing high-quality agricultural chemicals and farming products across Morocco.</p>
-</section>
-
-<section>
-  <h2>Our Services</h2>
-  <div class="grid">
-    <div class="card">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2OKrEIteBJ3RNxA_oXqZvHS4SerRM9SskQQ&s">
-      <h3>Agricultural Supplies</h3>
-      <p>We offer a wide range of essential supplies to support Moroccan farmers.</p>
+  <section>
+    <h2>Our Services</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://www.syngenta.com/sites/g/files/kgtney951/files/styles/media_crop/public/media/image/2023/03/06/crop-protection-products.jpg" alt="Agricultural Supplies">
+        <h3>Agricultural Supplies</h3>
+        <p>We offer a wide range of essential supplies to support Moroccan farmers.</p>
+      </div>
+      <div class="card">
+        <img src="https://www.trade.gov/sites/default/files/2020-08/chemicals_2.jpg" alt="Chemical Distribution">
+        <h3>Chemical Distribution</h3>
+        <p>Safe and regulated distribution of agricultural chemicals and fertilizers.</p>
+      </div>
+      <div class="card">
+        <img src="https://www.cropscience.bayer.com/sites/default/files/styles/media_crop/public/2021-04/field-agriculture-crop%20management.jpg" alt="Crop Management">
+        <h3>Crop Management</h3>
+        <p>Solutions tailored for better crop productivity and sustainability.</p>
+      </div>
+      <div class="card">
+        <img src="https://www.skillsforcare.org.uk/images/default-source/Advice-lines-imgs/training-education-skills-development.jpg" alt="Training & Advice">
+        <h3>Training & Advice</h3>
+        <p>Workshops and consulting services for modern agricultural practices.</p>
+      </div>
+      <div class="card">
+        <img src="https://www.deere.com/assets/images/region-4/industries/agriculture/r4k033522_rrd-2-1024x576.jpg" alt="Farming Equipment">
+        <h3>Farming Equipment</h3>
+        <p>Modern tools and machinery to improve efficiency on the field.</p>
+      </div>
     </div>
-    <div class="card">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpaV071L6HuWvjmZj0QbJc42FwR3AKJEdktGy2ffcANl9XxeE3mo5WYM0z5lXQAESLlgM&usqp=CAU">
-      <h3>Chemical Distribution</h3>
-      <p>Safe and regulated distribution of agricultural chemicals and fertilizers.</p>
-    </div>
-    <div class="card">
-      <img src="https://shetishala.com/wp-content/uploads/2024/08/Blog-Banner-for-Website-Content-38.jpg">
-      <h3>Crop Management</h3>
-      <p>Solutions tailored for better crop productivity and sustainability.</p>
-    </div>
-    <div class="card">
-      <img src="https://www.agcas.org.uk/write/MediaUploads/General%20Imagery/Training/shutterstock_1492613150.jpg">
-      <h3>Training & Advice</h3>
-      <p>Workshops and consulting services for modern agricultural practices.</p>
-    </div>
-    <div class="card">
-      <img src="https://www.deere.com/assets/images/region-4/industries/agriculture/r4k033522_rrd-2-1024x576.jpg">
-      <h3>Farming Equipment</h3>
-      <p>Modern tools and machinery to improve efficiency on the field.</p>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section>
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:contact@multiagri.shop">contact@multiagri.shop</a></p>
-  <p>Phone: <a href="tel:+212724058760">+212 724 058 760</a></p>
-  <p>Location: Amzri Douar Ait Boucetta, Tnine OUDAYA, 40253 Morocco</p>
-</section>
-
-<footer>
-  <p>&copy; 2025 MULTIAGRI. All rights reserved.</p>
-</footer>
-
+  <footer>
+    <p>&copy; 2025 Multiagri. All rights reserved.</p>
+  </footer>
 </body>
 </html>
